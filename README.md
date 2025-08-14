@@ -4,4 +4,4 @@ This repository contains code to re-estimate reaction norms for gross photosynth
 
 The original analysis was conducted by Samuel Barton et al. (2020) and is reported in [10.1111/ele.13469](https://doi.org/10.1111/ele.13469).
 
-The main motivation for the re-estimation, is that by accounting for correlations, we can generate realistic combinations of coefficients by drawing parameter samples from the joint posterior of the model. These samples represent ecologically plausible paired reaction norms for hypothetical species, which can be used in simulations of multispecies competitive communities whose dynamics play out under varying temperatures.
+The main motivation for the re-estimation, is that by accounting for correlations, we can generate realistic combinations of coefficients by drawing parameter samples from the joint posterior of the model. These samples represent ecologically plausible *paired* reaction norms for hypothetical species, which can be used in simulations of multispecies competitive communities whose dynamics play out under varying temperatures.
