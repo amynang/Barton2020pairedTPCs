@@ -1,6 +1,10 @@
 # Barton2020pairedTPCs
 
+<<<<<<< HEAD
 This repository contains code to re-estimate reaction norms for gross photosynthesis and respiration for 18 species of phytoplankton, using a Bayesian multivariate model which accounts for group-level correlations (i.e. across species and across replicates) among the different coefficients. The model is fitted using Stan (with brms as a front-end). Imputation is used for missing values, to prevent brms from dropping an existing rate value when the other, corresponding rate is missing (e.g. if respiration is missing, photosynthesis woulld be dropped as well, retaining only complete cases).
+=======
+This repository contains code to re-estimate reaction norms for gross photosynthesis and respiration for 18 species of phytoplankton, using a Bayesian multivariate model which accounts for group-level correlations (i.e. across species and across replicates) among the different coefficients. The model is fitted using Stan (with brms as a front-end). Imputation is used for missing values, to prevent brms from dropping an existing rate value when the other, corresponding rate is missing (e.g. if respiration is missing, photosynthesis woulld be dropped as well, retaining only complete cases)
+>>>>>>> ddbe3308a800d0ccf5e67e5c98d7ebce22bafe2e
 
 The original analysis was conducted by Samuel Barton et al. (2020) and is reported in [10.1111/ele.13469](https://doi.org/10.1111/ele.13469).
 
